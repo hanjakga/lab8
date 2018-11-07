@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+#define DELAY 5
+
+int main(void)
+{
+	int newpid;
+
+	void child_code(), parent_code();
+
+	printf("before: mypid is %d\n", getpid());
+
+	if((newpid =fork()) == -1)
+	{
+
+	}
+
